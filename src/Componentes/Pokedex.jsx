@@ -5,7 +5,7 @@ function Pokedex() {
         <div className='contenedor-pokemon'>
             <img 
                 className='imagen-pokemon'
-                src={requiere('https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png')}
+                src={require('../img/006.png')}
                 alt='Foto charizard' />
         <div className='contenedor-descripcion-pokemon'>
             <p className='nombre-pokemon'>Charizard</p>
@@ -18,3 +18,4 @@ function Pokedex() {
         </div>
     )
 }
+export default Pokedex;
