@@ -3,15 +3,10 @@ import "../styles/styles.css";
 
 function Pokedex(props) {
   return (
-    /*<div className="contenedor-header">
-        <p>
-        Nombre o número
-        <input type="search" name="buscar-pokemon"></input>
-        <input type="submit" value="Buscar"></input>
-      </p>
-      </div>*/
-    <div className="contenedor-pokemon">
-       <h1>
+    <div>
+      
+     <div className="contenedor-pokemon">
+      <h1>
         <p className="nombre-pokemon">{props.nombre}</p>
       </h1>
       <img
@@ -33,8 +28,8 @@ function Pokedex(props) {
           <strong>Debilidad:</strong> {props.debilidad}
         </p>
       </div>
-    
-    </div>
+      </div>
+   </div>
   );
 }
 export default Pokedex;
